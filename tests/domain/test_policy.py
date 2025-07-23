@@ -2,8 +2,8 @@ from datetime import date, timedelta
 
 import pytest
 
-from domain.entities import Booking, Guest, RoomType
-from domain.services import BookingPolicy
+from src.domain.entities import Booking, Guest, RoomType
+from src.domain.services import BookingPolicy
 
 
 def test_booking_policy_allows_valid_booking():

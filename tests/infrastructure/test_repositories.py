@@ -1,13 +1,13 @@
 from datetime import date, timedelta
 
-from infrastructure.db import get_engine, create_session, init_db
-from infrastructure.repositories import (
+from src.infrastructure.db import get_engine, create_session, init_db
+from src.infrastructure.repositories import (
     SqlBookingRepository,
     SqlGuestRepository,
     SqlRoomRepository,
 )
-from infrastructure.models import Base
-from domain.entities import Guest
+from src.infrastructure.models import Base
+from src.domain.entities import Guest
 
 
 def setup_function() -> None:

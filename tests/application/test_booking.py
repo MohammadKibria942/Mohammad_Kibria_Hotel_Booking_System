@@ -1,12 +1,12 @@
 from datetime import date, timedelta
 
-from application.use_cases import BookingService, CreateBookingRequest
-from domain.entities import Guest, RoomType
-from domain.services import BookingPolicy
-from infrastructure.models import RoomModel
-from infrastructure.repositories import SqlBookingRepository, SqlGuestRepository, SqlRoomRepository
-from infrastructure.db import get_engine, create_session, init_db
-from infrastructure.models import Base
+from src.application.use_cases import BookingService, CreateBookingRequest
+from src.domain.entities import Guest, RoomType
+from src.domain.services import BookingPolicy
+from src.infrastructure.models import RoomModel
+from src.infrastructure.repositories import SqlBookingRepository, SqlGuestRepository, SqlRoomRepository
+from src.infrastructure.db import get_engine, create_session, init_db
+from src.infrastructure.models import Base
 
 
 def setup_function() -> None:

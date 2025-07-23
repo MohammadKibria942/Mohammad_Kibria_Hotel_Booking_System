@@ -2,8 +2,8 @@ from datetime import date, timedelta
 
 from fastapi.testclient import TestClient
 
-from api.main import app, session
-from infrastructure.models import GuestModel, RoomModel, BookingModel
+from src.api.main import app, session
+from src.infrastructure.models import GuestModel, RoomModel, BookingModel
 
 client = TestClient(app)
 
