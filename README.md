@@ -41,6 +41,8 @@ curl -X POST http://localhost:8000/bookings \
   }'
 ```
 
+This can also be done using FastAPI accessing it at http://localhost:8000/docs after executing the run.sh script.
+
 ## Run
 ```bash
 ./scripts/run.sh
