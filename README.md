@@ -1,6 +1,6 @@
 # Hotel Booking System
 
-Simple booking system using FastAPI and SQLite.
+Clone the repository and open it up in VSCode.
 
 ## Prerequisites
 - Python 3.10+
